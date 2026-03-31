@@ -1,27 +1,29 @@
-# NDIS Yarn static page bundle
+# NDIS Yarn static page bundle v2
 
-This is a simple static HTML/CSS/JS bundle for the NDIS Yarn page concept.
+This bundle includes:
+- full landing page
+- updated contact pathway section
+- visible quick form and longer form
+- reduced repetitive CTA wording
+- warmer, culturally respectful form copy
 
 ## Files
 - `index.html`
 - `styles.css`
 - `script.js`
 
-## How to use
-### Option 1: Standalone static page
-Upload these files to a GitHub repo and deploy as a static site on Render.
-
-### Option 2: Integrate into an existing site
-Copy the page sections from `index.html` into your existing page template and merge the CSS classes from `styles.css` into your stylesheet.
-
 ## Render deployment
-1. Push the folder contents to GitHub.
-2. In Render, create a new Static Site.
-3. Connect the GitHub repo.
-4. Publish directory: `.`
-5. Build command: leave blank for a simple static site.
+Use this as a plain static site.
 
-## Notes
-- All CTA links are placeholders using `href="#"`.
-- Replace those placeholder links with your real forms, contact page, email, phone, or resource library URL.
-- The page uses Google Fonts for Inter. If you prefer, you can self-host fonts later.
+### Render settings
+- Root Directory: leave blank
+- Build Command: leave blank
+- Publish Directory: `.`
+
+## Important
+All links and form actions are placeholders.
+Replace:
+- `href="#"` links
+- `action="#"` form targets
+
+with your real URLs, forms, or endpoints before production.
